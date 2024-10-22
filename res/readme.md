@@ -1,0 +1,1 @@
+Settings file is comma separated values in the following order: furnace set temp, fan set temp, min screen brightness, max screen brightness, brightness timeout in seconds, sensor read delay (in seconds) when system is on, sensor read delay (in seconds) when system is off.
