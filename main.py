@@ -763,9 +763,9 @@ def setup():
   clr_screen()
   wlan = network.WLAN(network.AP_IF)
   wlan.active(True)
-  wlan.config(password='Rub!c0n1')
+  wlan.config(password='password')
   wlan.config(authmode=network.AUTH_WPA2_PSK)
-  wlan.config(essid='RubyTherm')
+  wlan.config(essid='Therm_Local_SSID')
   resp = 'None'
   s = 'None'
   conn = 'None'
